@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         });
       }
-      // Lägg till "aktiv" klass till klickade filterknappen.
+      // Lägg till "aktiv" klass till den klickade filterknappen.
       filterItem.classList.add("active-filter");
       filterItem.parentNode
         .querySelectorAll(".filter-item")
