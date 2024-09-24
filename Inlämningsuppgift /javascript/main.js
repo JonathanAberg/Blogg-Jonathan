@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// Gör headern icke-transparent när användaren scrollar ner på sidan.
 let header = document.querySelector("header");
 window.addEventListener("scroll", () => {
   header.classList.toggle("shadow", window.scrollY > 0);
